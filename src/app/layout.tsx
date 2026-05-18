@@ -15,12 +15,12 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Phyoe Wai | Software Engineer & AI Solutions Architect",
+  title: "Phyoe Wai | Software Engineer & Linux Enthusiast",
   description: "Explore the interactive developer portfolio of Phyoe Wai, featuring system architecture logs, career timelines, and interactive CLI terminal commands.",
   keywords: ["Phyoe Wai", "Software Engineer", "Systems Architect", "Next.js Portfolio", "TypeScript", "Tailwind CSS v4", "Interactive Terminal Portfolio"],
   authors: [{ name: "Phyoe Wai" }],
   openGraph: {
-    title: "Phyoe Wai | Software Engineer & AI Solutions Architect",
+    title: "Phyoe Wai | Software Engineer & Linux Enthusiast",
     description: "Explore the interactive developer portfolio of Phyoe Wai, featuring system architecture logs, career timelines, and interactive CLI terminal commands.",
     type: "website",
     locale: "en_US",

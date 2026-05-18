@@ -20,68 +20,68 @@ export interface SkillCategory {
 
 export const portfolioData = {
   name: "Phyoe Wai",
-  title: "Software Engineer & AI Solutions Architect",
-  location: "Yangon, Myanmar / Remote",
+  title: "Software Engineer & Linux Enthusiast",
+  location: "Yangon, Myanmar",
   status: "● Active - Building AI-driven experiences",
   avatarSeed: "phyoe-wai",
-  bio: "I design and engineer high-performance systems, robust APIs, and immersive web experiences. With a strong focus on clean architecture, responsive designs, and interactive interfaces, I build software that wows users at first glance.",
-  terminalCommand: "npx phyoe-wai",
+  bio: "I am a Software Engineer dedicated to building high-performance web applications and robust system architectures. With a deep appreciation for the efficiency of the Linux environment, I bridge the gap between elegant frontend interfaces and stable, scalable backend logic.",
+  terminalCommand: "whoami",
   email: "phyoe.wai.dev@gmail.com",
   socials: [
-    { name: "GitHub", url: "https://github.com/phyoe-wai", iconName: "Github" },
+    { name: "GitHub", url: "https://github.com/phyoewai-io", iconName: "Github" },
     { name: "LinkedIn", url: "https://linkedin.com/in/phyoe-wai", iconName: "Linkedin" },
-    { name: "Twitter", url: "https://twitter.com/phyoe_wai", iconName: "Twitter" },
-    { name: "Email", url: "mailto:phyoe.wai.dev@gmail.com", iconName: "Mail" }
+    // { name: "Twitter", url: "https://twitter.com/phyoe_wai", iconName: "Twitter" },
+    { name: "Email", url: "mailto:phyoewai2311@gmail.com", iconName: "Mail" }
   ],
   skillsCategories: [
     {
       title: "Languages",
-      skills: ["TypeScript", "JavaScript", "Go", "Python", "SQL", "Rust"]
+      skills: ["TypeScript", "JavaScript", "Java", "PHP", "SQL", "Dark"]
     },
     {
       title: "Frontend Frameworks",
-      skills: ["Next.js (App Router)", "React 19", "Tailwind CSS v4", "Redux Toolkit", "Framer Motion"]
+      skills: ["Next.js (App Router)", "React", "Tailwind CSS", "Redux Toolkit", "Framer Motion"]
     },
     {
       title: "Backend & Systems",
-      skills: ["Node.js", "Express", "NestJS", "PostgreSQL", "Docker", "REST & GraphQL"]
+      skills: ["Node.js", "Laravel", "Docker", "Git"]
     },
     {
       title: "AI & Tooling",
-      skills: ["Gemini API Integration", "LangChain", "Vector Databases", "Git", "Neovim", "Linux"]
+      skills: ["Gemini API Integration", "LangChain", "Claude Code", "Git", "Linux"]
     }
   ] as SkillCategory[],
   experiences: [
     {
       year: "2024 - Present",
-      role: "Lead Full-Stack & AI Systems Architect",
-      company: "Antigravity AI Lab",
+      role: "Software Engineer",
+      company: "AcePlus Solutions Company Limited",
       bullets: [
-        "Architected core agentic systems capable of autonomous file manipulation and workspace exploration.",
-        "Engineered single-page frameworks with Next.js and Tailwind CSS, improving application load performance by 35%.",
-        "Orchestrated vector-db pipelines to index codebase repositories for real-time model analysis."
+        "Experienced Software Engineer focused on building scalable system architectures and high-performance web applications.",
+        "I bridge the gap between elegant frontend design and robust backend logic, fueled by a deep passion for Linux and workflow automation.",
+        "Dedicated to writing clean, maintainable code and mentoring teams to deliver impactful digital solutions."
       ]
     },
     {
       year: "2022 - 2024",
-      role: "Senior Software Engineer",
-      company: "CoreTech Solutions",
+      role: "Junior Web Developer",
+      company: "Advanced Technology Solutions",
       bullets: [
-        "Developed responsive Web3 dashboard portals with React, handling 50k+ active daily users.",
-        "Refactored heavy legacy backend modules to Node.js / PostgreSQL service pipelines, cutting CPU loads by 45%.",
-        "Mentored a cross-functional team of 6 engineers on Next.js best practices and UI/UX responsive flows."
+        "Ambitious Web Developer with a strong foundation in modern frameworks and a drive for continuous learning.",
+        "I specialize in building responsive, user-centric interfaces while exploring the intricacies of server-side logic and system administration.",
+        "Eager to contribute to collaborative projects and solve complex problems through efficient, well-documented code"
       ]
     },
-    {
-      year: "2020 - 2022",
-      role: "Full-Stack Developer",
-      company: "ByteCraft Studio",
-      bullets: [
-        "Implemented pixel-perfect HTML5/Tailwind layouts based on complex UI designer mockups.",
-        "Integrated secure payment workflows (Stripe API) and OAuth user authentication handlers.",
-        "Configured robust local dev builds, improving hot-reload speed for developer tools."
-      ]
-    }
+    // {
+    //   year: "2020 - 2022",
+    //   role: "Full-Stack Developer",
+    //   company: "ByteCraft Studio",
+    //   bullets: [
+    //     "Implemented pixel-perfect HTML5/Tailwind layouts based on complex UI designer mockups.",
+    //     "Integrated secure payment workflows (Stripe API) and OAuth user authentication handlers.",
+    //     "Configured robust local dev builds, improving hot-reload speed for developer tools."
+    //   ]
+    // }
   ] as Experience[],
   projects: [
     {
@@ -107,22 +107,20 @@ export const portfolioData = {
     help: `Available commands:
   about    - Summary of who I am and what I build
   skills   - Detailed breakdown of my technology stack
-  projects - Catalog of recent open-source works
+  projects - Catalog of recent works
   socials  - List of channels to connect with me
   neofetch - System specification summary banner
   clear    - Clear console outputs`,
     
-    about: `Phyoe Wai - Software Engineer & Systems Architect
+    about: `Phyoe Wai - Software Engineer
 ------------------------------------------------------
-Based in Yangon, Myanmar, I specialize in crafting high-efficiency architectures, 
-designing sleek interfaces, and bridging the gap between web experiences and AI systems. 
-I love glassmorphism design, terminal interfaces, and writing highly clean, TypeScript code.`,
+Based in Yangon, Myanmar, I am a Software Engineer dedicated to building high-performance web applications and robust system architectures. With a deep appreciation for the efficiency of the Linux environment, I bridge the gap between elegant frontend interfaces and stable, scalable backend logic.`,
     
     skills: `My Core Technology Stack:
 ---------------------------------------------
-Languages        : TypeScript, JavaScript, Go, Python, SQL, Rust
-Frontend         : Next.js (App Router), React 19, Tailwind CSS v4, Framer Motion
-Backend/Systems  : Node.js, Express, NestJS, PostgreSQL, Docker, REST & GraphQL
+Languages        : TypeScript, JavaScript, Java, PHP, SQL, Dark
+Frontend         : Next.js (App Router), React, Tailwind CSS, Framer Motion
+Backend/Systems  : Node.js, PHP, Docker, Git
 AI/Tooling       : Gemini API, LangChain, Git, Neovim, Linux CLI`,
     
     projects: `Featured Projects:
@@ -139,10 +137,9 @@ AI/Tooling       : Gemini API, LangChain, Git, Neovim, Linux CLI`,
     
     socials: `Connect with me:
 ---------------------------------------------
-GitHub   : https://github.com/phyoe-wai
+GitHub   : https://github.com/phyoewai-io
 LinkedIn : https://linkedin.com/in/phyoe-wai
-Twitter  : https://twitter.com/phyoe_wai
-Email    : phyoe.wai.dev@gmail.com`,
+Email    : phyoewai2311@gmail.com`,
     
     neofetch: `phyoe@antigravity
 -----------------
